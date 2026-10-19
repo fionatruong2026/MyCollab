@@ -1,0 +1,223 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "30": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 31
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 19
+  },
+  "Values": {
+    "5,3": "Email Subscription Settings",
+    "8,3": "Please select the type of email notification",
+    "22,3": "Save",
+    "25,3": "Cancel"
+  },
+  "AttachInfos": {
+    "10,3": {
+      "CellType": {
+        "$type": "Forguncy.RadioGroupCellType, ServerDesignerCommon",
+        "Style": 1,
+        "LayoutMode": 1,
+        "ItemSpace": 14,
+        "Items": [
+          {
+            "Value": "0",
+            "DisplayValue": "Not notified"
+          },
+          {
+            "Value": "1",
+            "DisplayValue": "All changes are notified"
+          },
+          {
+            "Value": "2",
+            "DisplayValue": "Send notifications when other users create or modify records"
+          },
+          {
+            "Value": "3",
+            "DisplayValue": "Send notification when the record I created is modified"
+          },
+          {
+            "Value": "4",
+            "DisplayValue": "Send a notification when the record assigned to me is modified"
+          }
+        ],
+        "ForguncyAttribute": "MailSubscription_Choice"
+      }
+    },
+    "22,3": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "Text": "Save",
+        "AutoExecute": true,
+        "TemplateKey": "_RS_Main1",
+        "ForguncyAttribute": "MailSubscription_Button"
+      }
+    },
+    "25,3": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "NavigateType": "back"
+          }
+        ],
+        "Text": "Cancel",
+        "ClickMode": 1,
+        "TemplateKey": "_RS_Main"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "FontSize": 24.0,
+        "FontWeight": 1,
+        "Foreground": 2,
+        "Formatter": 3,
+        "HorizontalAlignment": 4,
+        "VerticalAlignment": 5
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 14.666666984558105,
+        "Foreground": 6,
+        "Formatter": 3
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333015441895,
+        "Foreground": 7,
+        "VerticalAlignment": 8,
+        "WordWrap": true
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 16.0,
+        "Foreground": null,
+        "Formatter": 3
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 16.0,
+        "Foreground": null,
+        "Formatter": 3,
+        "HorizontalAlignment": 9,
+        "Underline": false
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "Bold",
+        "Text 1 25",
+        "[AUTO]General",
+        "Left",
+        "Bottom",
+        "Text 1 50",
+        "Text 1 15",
+        "Top",
+        "Center",
+        "#FF000000"
+      ]
+    },
+    "CellStyles": {
+      "5,3": 0,
+      "8,3": 1,
+      "10,3": 2,
+      "22,3": 3,
+      "25,3": 4
+    },
+    "SheetStyle": {
+      "FontFamily": 0,
+      "FontSize": -999.0,
+      "Foreground": 10
+    }
+  },
+  "Spans": [
+    "5,3,2,13",
+    "22,3,2,13",
+    "25,3,1,13",
+    "10,3,10,13"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "Title": "Email Subscriptions",
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsBuiltInPage": true,
+    "IsMobilePage": true
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "BackgroundPictures": [
+    {
+      "Name": "63ba2154-003b-4f81-8694-d97ea891135b.png",
+      "StyleInfo": {
+        "CornerRadius": 20.0,
+        "Fill": "#FFF6F6F8",
+        "StrokeDashType": 8,
+        "Stroke": "black",
+        "StrokeThickness": 0.0
+      },
+      "IsAutomaticStroke": false,
+      "IsAutomaticFill": false,
+      "Location": "20,60",
+      "Size": "340,500"
+    }
+  ]
+}//m2YGfomJ3gg+F2UTvjC54/UVUazX82NzK8ACWhs/pMEkX0tCqYyWNPVxYB6xhtbkBM3ezGwSHqaQQ2+lErIBeI3M2giiPith9Q6owPipdffCQU9+8rgDAez2+3AdE0XY2va3Vy1OL/4OXffEZPvDbRBa9UaTvU/+aQdUruo8ZufCwwD3belxi+sAmyVrXr4CtReyWvHCUZSQ/ZzQc2g1Hh5wPIdkwHjnSTSNhL3oRpTYG8xQdwF4vS6oyu3vYfR99grwvtAA3osm+j9G0Nd/yMDDgQNyXcVuNKW9AA+P4wqpRmAamfcvXXgjLfbGFsJA+j0BxfErwWjdB5/+2RhnHZYqEPvr2Jb/YTJnLOj6JCRKMP6/WPUy86jJw5x1CiL8OzT7izJIp8xpBoJxxMXdB9g01yGgqQxLFZImEjSDrCirJffQY06sVhaEtZe0iMbQgIwhOkOwNFLUupp7gu0RR8fYQtUFJycO+IOtPMKKiS27YO4htnL+f4ovuyyXtUXCALypJFrCE2XlBwC0povUs9WnUMYEkxyqdR6B747aLC/SBExq1cIc/zFOZ9aoyGSXDNIEVDxux/vR08nlXoEv62oE4EDLg+g5a1+3lit97NFJ7j3T4pK8awqymq6XhLwJ3CYjy/GByhWfaS0vHG18gwe1HouyHrxj/cmevl6jd4jvq6b1EjI4gGeB56IavY3dz/RmmqYmqyjFhfPWfQFZTegKsBDUpBlVQjs96dVdOD1xta2Niwy3VIAahocMMwDfWJflKH9YFcZBCuLCrUnTnqyxul/OEOWIWSIq293aJrZhfMpzVDr6+Blxpwa7eJEaSxW80YH0iXEOl5iWyyZVywNzz6IVeXjL/msvknuQZkGenxOe+qBVoy47LN5YPXByB3qGvtAgBHybt6VmRNYSLg==|920

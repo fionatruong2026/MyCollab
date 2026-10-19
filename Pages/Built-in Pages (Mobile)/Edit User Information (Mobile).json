@@ -1,0 +1,276 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "30": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 31
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "19": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 20
+  },
+  "Values": {
+    "4,3": "Edit User Information",
+    "14,3": "*",
+    "14,4": "Display Name:",
+    "18,3": "*",
+    "18,4": "E-mail Address:",
+    "23,3": "Save",
+    "26,3": "Cancel"
+  },
+  "AttachInfos": {
+    "8,8": {
+      "CellType": {
+        "$type": "Forguncy.UploadImageCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_Shadow_EmptyText",
+        "UploadImageLimit": {
+          "IsCompressImage": true,
+          "MaxWidth": 300.0,
+          "MaxHeight": 300.0,
+          "AllowExtensions": ".png, .jpeg, .jpg, .bmp, .gif, .ico"
+        },
+        "ImagePath": "Navigation/238_user_8.svg",
+        "BuiltIn": true,
+        "Color": "Accent 1 40",
+        "ForguncyAttribute": "ChangeProfile_Picture"
+      }
+    },
+    "15,3": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_NewUnderlineUpdate",
+        "ForguncyAttribute": "ChangeProfile_FullName"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false
+      }
+    },
+    "19,3": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_NewUnderlineUpdate",
+        "ForguncyAttribute": "ChangeProfile_Email"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false
+      }
+    },
+    "23,3": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "Text": "Save",
+        "AutoExecute": true,
+        "TemplateKey": "_RS_Main1",
+        "ForguncyAttribute": "ChangeProfile_Button"
+      }
+    },
+    "26,3": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "NavigateType": "back"
+          }
+        ],
+        "Text": "Cancel",
+        "ClickMode": 1,
+        "TemplateKey": "_RS_Main"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "FontSize": 24.0,
+        "FontWeight": 1,
+        "Foreground": 2,
+        "Formatter": 3,
+        "HorizontalAlignment": 4,
+        "VerticalAlignment": 5
+      },
+      {
+        "FontFamily": 0,
+        "Foreground": 6,
+        "HorizontalAlignment": 4,
+        "Underline": false,
+        "Strikethrough": false
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 14.666666984558105,
+        "Foreground": 7,
+        "Formatter": 3
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 14.666666666666666,
+        "Foreground": 8,
+        "Formatter": 9
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 16.0,
+        "Foreground": null,
+        "Formatter": 3
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 16.0,
+        "Foreground": null,
+        "Formatter": 3,
+        "HorizontalAlignment": 10,
+        "Underline": false
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "Bold",
+        "Text 1 25",
+        "[AUTO]General",
+        "Left",
+        "Bottom",
+        "#FFFF0000",
+        "#FF7F7F7F",
+        "Text 1 15",
+        "@",
+        "Center",
+        "#FF000000"
+      ]
+    },
+    "CellStyles": {
+      "4,3": 0,
+      "14,3": 1,
+      "14,4": 2,
+      "15,3": 3,
+      "18,3": 1,
+      "18,4": 2,
+      "19,3": 3,
+      "23,3": 4,
+      "26,3": 5
+    },
+    "SheetStyle": {
+      "FontFamily": 0,
+      "FontSize": -999.0,
+      "Foreground": 11
+    }
+  },
+  "Spans": [
+    "15,3,2,14",
+    "19,3,2,14",
+    "23,3,2,14",
+    "26,3,1,14",
+    "8,8,5,5",
+    "4,3,2,14"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "Title": "Edit User Information",
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsBuiltInPage": true,
+    "IsMobilePage": true
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "BackgroundPictures": [
+    {
+      "Name": "daf919ca-2e76-4b75-a162-f69340598f0f.png",
+      "StyleInfo": {
+        "CornerRadius": 20.0,
+        "Fill": "#FFF6F6F8",
+        "StrokeDashType": 8,
+        "Stroke": "black",
+        "StrokeThickness": 0.0
+      },
+      "IsAutomaticStroke": false,
+      "IsAutomaticFill": false,
+      "Location": "20,40",
+      "Size": "340,540"
+    }
+  ]
+}//2NPzz99YYSpvOoG41UbHXy8NAE7R6RiLUT0p1W/ynhXYGWp11CcFvfhGys6AU8XI2/ahYzce0k/Ltl8spfLubAiXlM2J5wzDZ7Cu6bk3fFtkeKHNTkq43+H3CSzohr8+g90G6OzKEzVPhiHRV87DAV5OSJHUD7vxw5A9fTymdfzdBMFb+UsVbSJDdova54R+zjpXoo/EEdS9AnUlfyIJPLUGDybzm+8BpUrq+L9EPvK7eoXrjk0Gm9/4cYSQUl14HjMZV4J0ry3SGmQJuWf5gptptWDKpLK+OpyQjQtyYoPDYYuH68mh0RBGnYR9vU883z2Y09uZBy8AGucaVexnK4j2q3o/RbIzxIE+xn9gw2cP1rwRzYRzi+fCFZbCqjRdZIF/JCYJxqPOhf/ezPkUoE+vdsEAMyTCCpeYGCYw2O5qgf0/Pxg8twlX8++m5rw511c/lN4B9FzlyFlqYqa+xfcKWJvm9x+KbEXn3HJeue/5DwyGSed5WHSVemWY2Utj+kE4rI3X5Q6Jk0TxlxI4rtWNjgel5x9AXsMV6Xp124uJU2uK56tzt+kKwqVl7LYnMf2IXnvM/BpDjV5B1kU1gvu/WShWaOi45TqZpMJnJAfePDhzIE6+61+w35s0WkJnh3EMPRz2ZWxjlGvm9fRw6q6xaIh+FOeO233vxbzj+6Xq08bV0CKGHdsef/nPv27zIhGwtZ5vDo9DBb4qaHi8/yNz7micFCWf5YYcHlfMBfADENzOAfCH3EdKUw56l60TLbvv60174gRhCoIyQRJs5Qgppw7hvT21ACzqPkpFZv5DzoqgM/OHTempBBMPORhEXN36qEk+hYETiU4aRGiuVtbmm3Cbuq7Yar49/wv+ktP6bMAhwqYtdC8/C/vkuUxhCMdi6F/+nA1XDIL+QjwlqA==|920
